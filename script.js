@@ -18,19 +18,17 @@ const infoData = {
 };
 
 function showInfo(scale) {
-    console.log(`Button clicked: ${scale}`);
     const infoImage = document.getElementById('info-image');
     const infoText = document.getElementById('info-text');
 
-    infoImage.classList.remove('hidden');
-    infoText.classList.remove('hidden');
+    infoImage.classList.remove('show');
+    infoText.classList.remove('show');
 
     setTimeout(() => {
-        console.log(`Updating content for: ${scale}`);
         infoImage.src = infoData[scale].image;
         infoText.textContent = infoData[scale].text;
 
         infoImage.classList.add('show');
         infoText.classList.add('show');
-    }, 200);
+    }, 300);
 }
