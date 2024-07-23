@@ -1,19 +1,23 @@
 const infoData = {
+    nano: {
+        image: 'assets/baseball_bat_swing_10624.gif', 
+        // 'C:\\Users\\mac91\\OneDrive\\Desktop\\One Drive stuff\\My AI Folder 2024\\Batters swinging\\baseball_bat_swing_10624.gif',
+        text: 'A nanosecond is a billionth of a second. It\'s often used to measure extremely quick events.'
+    },
+    millie: {
+        image: 'assets/baseball_bat_swing_10624_2.gif',
+        // 'C:\\Users\\mac91\\OneDrive\\Desktop\\One Drive stuff\\My AI Folder 2024\\Batters swinging\\baseball_bat_swing_10624 2.gif',
+        text: 'A millisecond is a thousandth of a second. It\'s useful for short tasks and activities.'
+    },
     second: {
-        image: 'assets/baseball_bat_swing_10624.gif', // replace with actual path
-        text: 'A second is a very short unit of time. It\'s often used to measure quick events.'
+        image: 'assets/baseball_bat_swing_10624_80.gif',
+        // 'C:\\Users\\mac91\\OneDrive\\Desktop\\One Drive stuff\\My AI Folder 2024\\Batters swinging\\baseball_bat_swing_10624 80.gif',
+        text: 'A second is a basic unit of time. It\'s a common unit for scheduling and time management.'
     },
     minute: {
-        image: 'assets/baseball_bat_swing_10624_2.gif', // replace with actual path
-        text: 'A minute is made up of 60 seconds. It\'s useful for short tasks and activities.'
-    },
-    hour: {
-        image: 'assets/baseball_bat_swing_10624_80.gif', // replace with actual path
-        text: 'An hour consists of 60 minutes. It\'s a common unit for scheduling and time management.'
-    },
-    day: {
-        image: 'assets/baseball_bat_swing_10624_minutes.gif', // replace with actual path
-        text: 'A day is 24 hours long. It\'s the primary unit we use to organize our lives.'
+        image: 'assets/baseball_bat_swing_10624_minutes.gif',
+        // 'C:\\Users\\mac91\\OneDrive\\Desktop\\One Drive stuff\\My AI Folder 2024\\Batters swinging\\baseball_bat_swing_10624 minutes.gif',
+        text: 'A minute is 60 seconds long. It\'s the primary unit we use to organize our lives.'
     }
 };
 
