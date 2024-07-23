@@ -7,19 +7,20 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="container">
+    <div class="container">
         <h1>Time Management Scales</h1>
-        <div id="scale-buttons">
+        <div class="button-container">
             <button onclick="showInfo('nano')">Nano</button>
             <button onclick="showInfo('millie')">Millie</button>
             <button onclick="showInfo('second')">Second</button>
             <button onclick="showInfo('minute')">Minute</button>
         </div>
-        <div id="info-box">
-            <img id="info-image" src="" alt="Time Scale Image">
-            <p id="info-text">Click a button to learn more about each time scale.</p>
+        <div class="info-container">
+            <img id="info-image" src="" alt="Time Scale Image" class="hidden">
+            <p id="info-text" class="hidden">Click a button to learn more about each time scale.</p>
         </div>
     </div>
+    <!-- Link to the script.js file -->
     <script src="script.js"></script>
 </body>
 </html>
